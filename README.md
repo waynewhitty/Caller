@@ -6,7 +6,7 @@ A very basic cURL wrapper for PHP. See files for some basic examples.
 Including
 ======
 
-```
+```php
 //Include the Caller.php file.
 require 'lib/Caller.php';
 
@@ -43,4 +43,18 @@ $response = $request->post($url, $postFields);
 
 //Print response output
 echo $response;
+```
+
+HTTP Status Code
+======
+
+```php
+//Get the HTTP status code of a particular URL.
+$url = 'http://wikipedia.org';
+$statusCode = $request->getHTTPStatus($url);
+$statusCodeText = $request->getStatusCodeMeaning($statusCode);
+
+//Print the result.
+echo "URL <b>$url</b> returned a status code of:<br>";
+echo "$statusCode $statusCodeText";
 ```
