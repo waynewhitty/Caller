@@ -19,7 +19,6 @@ GET Request
 
 ```php
 //Get the content of a particular URL.
-
 $url = 'http://wikipedia.org';
 $content = $request->get($url, true);
 echo $content;
@@ -30,7 +29,6 @@ POST Request
 
 ```php
 //Perform POST request.
-
 $url = 'http://wikipedia.org';
 
 $postFields = array(
