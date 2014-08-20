@@ -9,10 +9,6 @@ namespace Caller;
 class Request{
     
     
-    
-    
-    
-    
     /**
      * cURL handler.
      * 
@@ -28,7 +24,7 @@ class Request{
     /**
      * User Agent to use in requests.
      * 
-     * @var type 
+     * @var string 
      */
     protected $userAgent = 'Caller - PHP';
     
