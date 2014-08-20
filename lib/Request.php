@@ -1,5 +1,9 @@
 <?php
 
+/**
+ * PHP wrapper class for cURL.
+ */
+
 namespace Caller;
 
 class Request{

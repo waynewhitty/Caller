@@ -1,5 +1,9 @@
 <?php
 
+/**
+ * Custom Exception for Caller.
+ */
+
 namespace Caller;
 
 class RequestException extends \Exception{
