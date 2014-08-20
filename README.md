@@ -63,6 +63,5 @@ Download File
 //Download the file.
 $googleLogoUrl = 'http://upload.wikimedia.org/wikipedia/commons/5/51/Google.png';
 $savePath = 'google-logo.png';
-
 $result = $request->downloadFile($googleLogoUrl, $savePath);
 ```
