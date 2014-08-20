@@ -56,3 +56,13 @@ $statusCodeText = $request->getStatusCodeMeaning($statusCode);
 echo "URL <b>$url</b> returned a status code of:<br>";
 echo "$statusCode $statusCodeText";
 ```
+
+Download File
+======
+```php
+//Download the file.
+$googleLogoUrl = 'http://upload.wikimedia.org/wikipedia/commons/5/51/Google.png';
+$savePath = 'google-logo.png';
+
+$result = $request->downloadFile($googleLogoUrl, $savePath);
+```
